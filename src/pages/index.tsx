@@ -61,7 +61,7 @@ export default function Home() {
               ></path>
             </svg>
             <p className="text-[#7080b3]">Total output</p>
-            <p>1600 USDT</p>
+            <p>312+ USDT</p>
           </div>
           <div className="flex flex-col space-y-1 justify-center items-center text-center">
             <svg
@@ -116,7 +116,7 @@ export default function Home() {
               ></path>
             </svg>
             <p className="text-[#7080b3]">Yesterday output</p>
-            <p>1201 USDT</p>
+            <p>267+ USDT</p>
           </div>
         </div>
         <div className="mx-3 p-4  bg-[#212244] flex flex-col justify-between rounded-xl text-[16px] space-y-2">
