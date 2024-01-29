@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Avenir+Next:wght@400;500;600;700&family=Fira+Code:wght@400;700&family=Fira+Mono:wght@400;700&family=Manrope:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+	position: fixed;
+}
+body {
+  color: #fff;
+  background: #16172e;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px; 
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; 
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #ccc;
+}
+
+.scrollable::-webkit-scrollbar {
+  display: none;
+}
